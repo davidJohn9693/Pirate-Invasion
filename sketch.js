@@ -25,19 +25,19 @@ var isLaughing = false;
 var score = 0;
 
 function preload() {
-  backgroundImg = loadImage("./assets/background.gif");
-  towerImage = loadImage("./assets/tower.png");
-  boatSpritedata = loadJSON("assets/boat/boat.json");
-  boatSpritesheet = loadImage("assets/boat/boat.png");
-  brokenBoatSpritedata = loadJSON("assets/boat/broken_boat.json");
-  brokenBoatSpritesheet = loadImage("assets/boat/broken_boat.png");
-  waterSplashSpritedata = loadJSON("assets/water_splash/water_splash.json");
-  waterSplashSpritesheet = loadImage("assets/water_splash/water_splash.png");
+  backgroundImg = loadImage("background.gif");
+  towerImage = loadImage("tower.png");
+  boatSpritedata = loadJSON("boat.json");
+  boatSpritesheet = loadImage("boat.png");
+  brokenBoatSpritedata = loadJSON("broken_boat.json");
+  brokenBoatSpritesheet = loadImage("broken_boat.png");
+  waterSplashSpritedata = loadJSON("water_splash.json");
+  waterSplashSpritesheet = loadImage("water_splash.png");
 
-  backgroundMusic = loadSound('./assets/background_music.mp3')
-  waterSound = loadSound('./assets/cannon_water.mp3')
-  pirateLaughSound = loadSound('./assets/pirare_laugh.mp3')
-  cannonExplosion = loadSound('./assets/cannon_explosion.mp3')
+  backgroundMusic = loadSound('background_music.mp3')
+  waterSound = loadSound('cannon_water.mp3')
+  pirateLaughSound = loadSound('pirare_laugh.mp3')
+  cannonExplosion = loadSound('cannon_explosion.mp3')
 
 }
 
